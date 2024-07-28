@@ -14,13 +14,9 @@ def print_pattern(n=5):
     supply the input number then it will assume it to be 5
     :return: None
     '''
-    # we need to run two for loops. Outer loop prints patterns line by line
-    # where as inner loop print the content of that specific lines
-    for i in range(n):
-        s = ''
-        for j in range(i+1):
-            s = s + '*'
-        print(s)
+    # we need to run one for loops. Outer loop prints patterns line by line
+    for i in range(1, n+1):
+        print('*' * i)
 
 def calculate_area(dimension1,dimension2,shape="triangle"):
     '''
