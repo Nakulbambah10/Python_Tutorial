@@ -15,7 +15,7 @@ def print_pattern(n=5):
     :return: None
     '''
     # we need to run one for loops. Outer loop prints patterns line by line
-    for i in range(n):
+    for i in range(1, n+1):
         print('*' * i)
 
 def calculate_area(dimension1,dimension2,shape="triangle"):
